@@ -1,7 +1,7 @@
 # gdbcbeat
 A custom elastic beat to query from oracle,mssql and ship data to supported libbeat outputs.
 
-This is an experimental Elastic beat that can perform jdbc-like queries against mssql first and oracle next, and convert the resultset to beat events that can be shipped to your favorite output like logstash, elasticsearch, etc.
+This is an experimental Elastic libbeat (derivation/use case) that can perform jdbc-like queries against mssql first and oracle next, and convert the resultset to beat events that can be shipped to your favorite output like logstash, elasticsearch, etc.
 
 It is an alternative to using logstash and jdbc input plugin https://www.elastic.co/guide/en/logstash/current/plugins-inputs-jdbc.html
 
